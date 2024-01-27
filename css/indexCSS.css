@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: .1rem;
 }
 body{
     overflow-x: hidden;
@@ -241,7 +242,7 @@ ul {
 }
 .card-front p{
   color: white;
-  font-size: medium;
+  font-size: large;
   font-weight: bold;
 }
 
@@ -277,6 +278,7 @@ ul {
 
 .fonctionscads div{
   width: 25vw;
+  transition: all 0.3s ease;
 }
 
 .cardswrapper{
@@ -289,12 +291,13 @@ ul {
   border: #5974E9 solid 2px;
   background-color: #5974E9;
   border-radius: 5%;
-  padding: 1vw;
+  padding: 2vw 2vw 0 2vw;
 }
-#card1 h4{
+#card1 h3{
   color:white;
   font-size: medium;
   font-weight: bold;
+  margin-bottom: 1vh;
 }
 #card1 p{
   color:rgba(255, 255, 255, 0.8);
@@ -308,13 +311,14 @@ ul {
 #card2{
   border: #9859E9 solid 2px;
   background-color: #9859E9;
-  padding: 1vw;
+  padding: 2vw 2vw 0 2vw;
   border-radius: 5%;
 }
-#card2 h4{
+#card2 h3{
   color:white;
   font-size: medium;
   font-weight: bold;
+  margin-bottom: 1vh;
 }
 #card2 p{
   color:rgba(255, 255, 255, 0.8);
@@ -324,16 +328,26 @@ ul {
 #card3{
   border: #5974E9 solid 2px;
   background-color: #5974E9;
-  padding: 1vw;
+  padding:  2vw 2vw 0 2vw;
   border-radius: 5%;
 }
-#card3 h4{
+#card3 h3{
   color:white;
-  font-size: medium;
+  font-size: medium ;
   font-weight: bold;
+  margin-bottom: 1vh;
 }
 #card3 p{
   color:rgba(255, 255, 255, 0.8);
-  font-size: small;
+  font-size: 12px;
   font-weight: bold;
+}
+#card2:hover {
+  flex: 2; /* Expand card1 */
+  flex-grow: 1;
+  margin-left: -1vw; /* Move card2 to the left */
+}
+#card1:hover {
+  flex: 2; /* Expand card1 */
+  margin-left: -1vw; /* Move card2 to the left */
 }
