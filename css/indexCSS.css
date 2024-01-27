@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Hebrew", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 body{
     overflow-x: hidden;
@@ -273,12 +274,66 @@ ul {
   align-items: center;
   gap: 5vh;
 }
+
+.fonctionscads div{
+  width: 25vw;
+}
+
+.cardswrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+}
+
 #card1{
   border: #5974E9 solid 2px;
+  background-color: #5974E9;
+  border-radius: 5%;
+  padding: 1vw;
+}
+#card1 h4{
+  color:white;
+  font-size: medium;
+  font-weight: bold;
+}
+#card1 p{
+  color:rgba(255, 255, 255, 0.8);
+  font-size: small;
+  font-weight: bold;
+}
+#card1 div{
+  display: flex;
+
 }
 #card2{
   border: #9859E9 solid 2px;
+  background-color: #9859E9;
+  padding: 1vw;
+  border-radius: 5%;
+}
+#card2 h4{
+  color:white;
+  font-size: medium;
+  font-weight: bold;
+}
+#card2 p{
+  color:rgba(255, 255, 255, 0.8);
+  font-size: small;
+  font-weight: bold;
 }
 #card3{
   border: #5974E9 solid 2px;
+  background-color: #5974E9;
+  padding: 1vw;
+  border-radius: 5%;
+}
+#card3 h4{
+  color:white;
+  font-size: medium;
+  font-weight: bold;
+}
+#card3 p{
+  color:rgba(255, 255, 255, 0.8);
+  font-size: small;
+  font-weight: bold;
 }
